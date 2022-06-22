@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-section {
+    width: 85%;
+    margin: 10% auto 0;
+    font-size: 17px;
+    color: #4c4e61;
+}
+
+.first-heading {
+    font-weight: 200;
+}
+
+.second-heading {
+    font-weight: 600;
+}
+
+.heading-text {
+    font-size: 15px;
+    color: #a3a5ae;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 15% auto;
+}
+
+.box {
+    padding: 20px;
+    box-shadow: 0 10px 25px 0 #a3a5ae;
+    margin-bottom: 10%;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.box-container-2 {
+    width: 100%;
+}
+
+.box1 {
+    border-top: 5px solid #45d3d3;
+}
+
+.box2 {
+    border-top: 5px solid #ea5353;
+}
+
+.box3 {
+    border-top: 5px solid #fcaf4a;
+}
+
+.box4 {
+    border-top: 5px solid #549ef2;
+}
+
+.box-title {
+    font-size: 20px;
+    color: #4c4e61;
+    font-weight: 600;
+}
+
+.box-text {
+    margin-top: 5%;
+    color: #a3a5ae;
+    font-size: 15px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 10%;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #4c4e61;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #303136;
+}
+
+@media screen and (min-width: 426px) {
+    .heading-section {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 825px) {
+    .heading-section {
+        margin-top: 7%;
+    }
+    .heading-text {
+        width: 70%;
+        margin: 5% auto 0;
+    }
+    .box-container {
+        flex-direction: row;
+        width: 95%;
+        margin: 10% auto 10%;
+    }
+    .box-container-2 {
+        margin: 0 20px;
+    }
+    .box {
+        margin: 0;
+    }
+    .box3 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .heading-section {
+        margin-top: 5%;
+    }
+    .heading-text {
+        width: 50%;
+        margin: 3% auto 0;
+    }
+    .box-container {
+        flex-direction: row;
+        width: 95%;
+        margin: 5% auto 3%;
+    }
+    .box-container-2 {
+        margin: 0 20px;
+    }
+    .box {
+        margin: 0;
+    }
+    .box3 {
+        margin-top: 20px;
+    }
+}
